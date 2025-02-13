@@ -1,0 +1,201 @@
+AMRADIAMA: Hotel Management System Documentation
+In Partial Fulfillment of the
+Requirements for the ITEP 201
+Object-Oriented Programming (OOP)
+Dessa Marie Amparo
+Karl Waitan Diamante
+Paul Paolo Mamugay
+RenzRamos
+Project Title: AMRADIAMA: Hotel Management System
+Date: [January 03, 2025]
+Affiliation: Laguna State Polytechnic University
+Submitted To: Mr. Nicko Albes
+Course/Subject: Object-Oriented Programming (OOP)
+
+Introduction
+The AMRADIAMA: Hotel Management System is designed to make hotel
+operations simpler, faster, and more organized. It combines important tasks like
+taking reservations, managing guest details, tracking room availability, and handling
+promotions into one easy-to-use platform. By automating these tasks, the system
+reduces errors, saves time, and ensures that data is always accurate. It helps hotel
+staff work more efficiently and gives guests a smoother experience, from booking
+their stay to checking out.
+This system is built to support the needs of small to medium-sized hotels,
+making it easier for them to keep up with guest expectations. Features like real-time
+updates on room availability, helpful reports, and secure online bookings ensure that
+operations run smoothly and reliably. With its simple design, the AMRADIAMA: Hotel
+Management System is easy for both staff and managers to use, while guests enjoy
+quicker and more convenient service.
+Brief Description
+In this system, the following features are included:
+● Rooms Details and Information: All information about each room can easily
+be retrieved to guide staff on promoting and introducing the best options
+based on customer preferences.
+● Rooms Availability Management: Provides real-time updates on room
+availability and blocks already unavailable rooms.
+● Guest Information Management: Automatically stores guest information
+such as names, contact details, and booking history, facilitating check-in and
+check-out processes. It also tracks customers' preferences for repeated
+bookings.
+● Promos, Discounts, and Pricing Management: Customizes promotional
+offers based on demand seasons and holidays.
+● Overall Reports Management: Generates insights such as revenue trends
+and sales reports to aid in decision-making.
+Objectives and Purpose
+Purpose
+The AMRADIAMA:Hotel Management System is a solution designed to
+streamline various hotel operations, minimizing manual errors and enhancing
+efficiency. By automating essential tasks such as reservations, promotions, and
+report generation, this system ensures a smoother experience for both staff and
+guests. Manual processes in hotels often lead to inefficiencies, errors, and delays.
+The purpose of this system is to mitigate these issues by providing a digital platform
+that centralizes operations. It serves as a reliable tool for small to medium-sized
+hotels, ensuring that data is accurate and easily accessible while enhancing user
+experience. It is an Online Reservation System with features that allows customers
+to book reservations online through the hotel’s website or third-party platforms,
+integrated with secure booking transactions.
+Objectives
+The main objectives of the Hotel Management System include:
+1. Streamlining Hotel Operations: Simplify the workflow of reservations, room
+management, and promotions through automation.
+2. Improving Data Accuracy: Ensure that all records, such as reservations and
+guest details, are maintained accurately and up-to-date.
+3. Enhancing User Experience: Provide a user-friendly interface that caters to
+both technical and non-technical users.
+4. Boosting Decision-Making: Generate detailed reports for bookings and
+guest data to assist in strategic planning and management.
+The Hotel Reservation Management System specifically aims to integrate
+seamlessly with the objectives listed earlier by:
+● Simplifying the management of all rooms and accommodations for customers,
+ensuring efficiency and accuracy.
+● Reducing overbooking and incorrect reservations, thereby minimizing errors
+and confusion while enhancing customer satisfaction.
+● Offering real-time room availability updates, alleviating staff pressure and
+significantly improving operational workflow.
+By addressing these objectives, the system empowers hotel staff to focus on
+delivering quality service while minimizing operational overhead.
+Key Features
+User Account Management
+Managing user accounts is crucial for ensuring secure and efficient access to the
+system. This module includes:
+● Account Creation: Allows users to register by entering their details such as
+name, contact information, and a secure password. This ensures a
+personalized experience for guests.
+● Login System: Provides a secure authentication process where users enter
+their credentials to access the system. It prevents unauthorized access.
+● Account Deletion: Permits users to permanently delete their accounts. This
+feature is particularly useful for maintaining data privacy and complying with
+user requests.
+Source Code
+Output
+Room Reservation and Management
+The reservation module is designed to simplify the process of booking and managing
+rooms. Its features include:
+● Book a Room: Guests can select available rooms based on their
+preferences, such as room type, room number, and duration of stay. The
+system checks for availability and applies any active promotions.
+Source Code
+Output
+● View Reservations: Users can view all current and past reservations,
+providing a clear overview of their booking history. This is particularly useful
+for staff when verifying guest details.
+Source Code
+Output
+● Handling of Payment: Automates the billing process by calculating the total
+amount based on room rates, additional charges, and discounts. It also
+updates the room status to "Available," ensuring accurate room inventory. In
+these features, guests can choose their payment method and process
+payment smoothly.
+Source Code
+Output
+● Check Out: A check out process wherein upon entering the room number you
+want to check out, the system will automatically check the availability of the
+room validating if the room was booked or not. It also allows the user to think
+twice on their decision because of the confirmation asked by the system.
+Source Code
+Output
+Additionally, the system includes:
+● Room Details and Information: Allows staff to retrieve detailed information
+about each room to guide guests in selecting the best option based on their
+preferences.
+Source Code
+Output
+● Rooms Availability Management: Provides real-time updates on room
+availability and automatically marks unavailable rooms.
+Source Code
+Output
+Guest Information Management
+This module ensures efficient organization of guest data:
+● Automatically stores guest details, such as name, contact information, and
+booking history.
+● Tracks customer preferences for personalized service during repeat bookings.
+Source Code
+Output
+Promotions Management
+Promotional offers are a powerful tool for attracting guests. This module
+enables hotel staff to manage promotions efficiently:
+● Add Promotion: Staff can create new promotions by specifying details such
+as discount percentage, validity period, and applicable room types.
+● Update Promotion: Allows staff to modify existing promotions to reflect
+changes in offers or conditions.
+● Delete Promotion: Removes expired or irrelevant promotions from the
+system, keeping the list up-to-date.
+● View Promotions: Displays all active promotions, making it easy for guests to
+avail of special offers.
+Promos, Discounts, and Pricing Management
+This feature allows:
+● Customization of promos, discounts, and vouchers based on demand
+seasons and holidays.
+● Automatic display of promotional offers on screens for online users.
+Source Code
+Output
+Reporting Managements
+The reporting module provides critical insights into hotel operations:
+● Generate Booking Report: Summarizes all bookings within a specified time
+frame, providing a detailed view of occupancy rates and revenue.
+● Generate Guest Booking Report: Focuses on individual guests, detailing
+their booking history and preferences. This helps in personalizing guest
+experiences.
+● Overall Reports Management: Generates insights such as revenue trends
+and sales reports to aid in decision-making.
+Source Code
+Output
+OOP Concepts to be Implemented
+This system implements key Object-Oriented Programming (OOP) principles:
+● Encapsulation: Ensures sensitive guest information, Guest payment details
+and other data that is needed to hide is securely stored and accessed.
+● Polymorphism: Supports overloading and overriding of interface methods
+and other methods with the help of getter and setter methods.
+● Abstraction: Simplifies complex processes like reservation adjustments,
+discounts, and promotions into user-friendly interfaces.
+Database or Storage Method
+The system utilizes a relational database management system (RDBMS), specifically
+MySQL. This choice ensures:
+● Structured Storage: Allows for efficient organization and retrieval of data.
+● Scalability: Accommodates growing data needs as the hotel expands.
+● Real-Time Updates: Ensures data integrity and synchronization across all
+modules.
+Conclusion
+The Hotel Management System is a comprehensive tool designed to address the
+unique challenges faced by hotels. Its features ensure efficient handling of core
+operations, from reservations to promotions, while minimizing errors and saving time.
+It also has the capabilities to offer smooth and secured payment transactions with
+friendly discounts and promos. It also possesses security on most of sensitive data
+in a management system that will provide high appreciation on the users and
+owners.
+
+With the implementation of this system, hotels can offer a superior guest experience
+by automating tedious tasks and focusing on quality service.The reporting
+capabilities provide valuable insights, enabling management to make data-driven
+decisions and improve operational strategies.
+Future enhancements, such as the integration of a graphical user interface and
+mobile application support, will further elevate the system’s functionality. For
+example, implementing a graphical user interface would allow staff to intuitively
+navigate the system, reducing training time and errors. A mobile application would
+enable guests to make bookings, check room availability, and receive personalized
+offers directly on their smartphones, enhancing convenience and customer
+satisfaction. By continually evolving, the Hotel Management System aims to remain
+a reliable and indispensable tool for the hospitality industry.
+In conclusion, this system represents a significant step forward in hotel
+management, providing a scalable and robust solution that adapts to the dynamic
+needs of the industry.
